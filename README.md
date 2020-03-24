@@ -1,6 +1,6 @@
 # Review of the Rails MVC
 
-## Learning Goals
+## Learning Goa
 
 - Review the MVC structure of Rails
 
@@ -44,16 +44,7 @@ First, we need a migration to set up the database:
 ```ruby
 # db/migrate/2019_create_birds.rb
 
-class CreateBirds < ActiveRecord::Migration[5.2]
-  def change
-    create_table :birds do |t|
-      t.string :name
-      t.string :species
-
-      t.timestamps
-    end
-  end
-end
+eq
 ```
 
 Then run `rails db:migrate` to create the schema. We set this up first because
